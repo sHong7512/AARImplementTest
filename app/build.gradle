@@ -39,9 +39,13 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
     //스튜디오 내부에서 Gradle 빌드 할때
-    implementation files('libs/ExampleCal.aar')
-    //스튜디오 외부에서 Gradle 빌드 할때
+//    implementation files('libs/ExampleCal.aar')
+    //스튜디오 외부(로컬)에서 Gradle 빌드 할때 추가하는 코드
 //    implementation fileTree(dir: "libs", include: ["*.jar", "*.aar"])
+
+    // jitpack publishing 저장소 implement 할때
+    implementation 'com.github.sHong7512:AARLibraryExample:0.0.1'
+
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

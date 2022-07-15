@@ -23,3 +23,7 @@ reference : https://developer.android.com/studio/projects/android-library?hl=ko
 - jitpack 퍼블리싱 
 
 reference : https://dev.to/vtsen/how-to-publish-android-library-on-jitpackio-with-github-50n1
+
+- jitpack 주소
+
+https://jitpack.io/#sHong7512/AARLibraryExample
