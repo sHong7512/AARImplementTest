@@ -4,7 +4,7 @@ aar 파일을 libs폴더에 넣고 implement하는 예제
 
 1. 안드로이드 4.2 버전에서는 gradle -> task가 안뜰수 있음. 
 
-preferences -> Experimental -> Do not build Gradle task list during Gradle sync 체크 해제 -> sync project with gradle files
+preferences(settings) -> Experimental -> Do not build Gradle task list during Gradle sync 체크 해제 -> sync project with gradle files
 
 하면 task폴더가 표시된다.
 
